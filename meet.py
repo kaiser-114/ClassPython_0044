@@ -25,3 +25,12 @@ l = float(input("Masukkan lebar: "))
 while l <= 0:
     print("Lebar tidak boleh 0 atau negatif!")
     l = float(input("Masukkan lebar: "))
+
+    # Membuat object
+r = Rectangle(p, l)
+
+# Memanggil semua fungsi
+print("\nHasil:")
+print(r)
+print("Keliling:", r.keliling(), "cm")
+print("Luas:", r.luas(), "cm²")
