@@ -18,3 +18,10 @@ p = float(input("Masukkan panjang: "))
 while p <= 0:
     print("Panjang tidak boleh 0 atau negatif!")
     p = float(input("Masukkan panjang: "))
+
+    # Input lebar
+l = float(input("Masukkan lebar: "))
+
+while l <= 0:
+    print("Lebar tidak boleh 0 atau negatif!")
+    l = float(input("Masukkan lebar: "))
