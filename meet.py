@@ -8,3 +8,6 @@ class Rectangle:
 
     def luas(self):
         return self.p * self.l
+
+    def __str__(self):
+        return f"Rectangle, panjang {self.p} cm dan lebar {self.l} cm"
